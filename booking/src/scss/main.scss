@@ -1,0 +1,10 @@
+@import "base";
+
+body {
+  font: 100% "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: green;
+}
+
+.black {
+  background: $black;
+}

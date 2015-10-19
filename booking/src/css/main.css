@@ -1,0 +1,13 @@
+html,
+body,
+ul,
+ol {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font: 100% "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: green; }
+
+.black {
+  background: #002f00; }
