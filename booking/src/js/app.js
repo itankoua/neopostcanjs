@@ -3,9 +3,10 @@
  */
 "use strict";
 
+
 can.Component.extend({
     tag: "myTag",
-    template: '<h1 can-click="updateSubject">  {{ subject }} World <content></content> </h1>',
+    template: '<h1 can-click="updateSubject"> <content></content> {{ subject }} World  </h1>',
     scope : {
         subject : "Hello",
         updateSubject : function() {
@@ -14,5 +15,33 @@ can.Component.extend({
     }
 });
 
+var model = [
+    {
+     name : "Ivan",
+ lastname : "TNKOUA"
+    }
+    ,{
+        name : "Ivan2",
+        lastname : "TNKOUA2"
+    },{
+        name : "Ivan3",
+        lastname : "TNKOUA3"
+    }
 
-$("#out").html(can.view("app", {}));
+]
+
+var model2 = {
+    name : "Ivan3",
+    lastname : "TNKOUA3"
+}
+
+var fullModel = {
+    one : model,
+    two : model2
+}
+
+var frag = can.view("file:///Users/itankoua/Documents/SPBASE/NEOPOST/formationcanjs2/booking/src/js/modules/home/home.ejs",
+    { model : fullModel });
+
+
+$("#out").html(frag);
