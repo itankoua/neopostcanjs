@@ -3,18 +3,20 @@
  */
 'use script';
 
-var
+var todos = new can.List([
+    { name : "first", completed : false, description :"this is the first todo "},
+    { name : "second", completed : false, description :"this is the second todo "},
+    { name : "third", completed : false, description :"this is the third todo "}
+]);
 
 
-    can.Component.extend({
-    tag: "myTag",
-    template: '<h1>test</h1>',
-    scope : {
-        subject : "Hello",
-        updateSubject : function() {
-            this.attr("subject", "Bye bye");
-        }
-    }
+var model = can.Model.extend({
+
 });
 
-$("#out").html(can.view("app", {}));
+var frag = can.view("/booking/src/js/modules/model/model.ejs", {
+    todos : todos
+});
+
+
+$("#out").html(frag);

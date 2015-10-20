@@ -9,5 +9,15 @@ body {
   font: 100% "Helvetica Neue", Helvetica, Arial, sans-serif;
   background: green; }
 
-.black {
-  background: #002f00; }
+.box {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px; }
+  .box .free {
+    background: green; }
+  .box .busy {
+    background: red; }
+
+.bg-one {
+  background: red; }

@@ -1,24 +1,30 @@
 /*var x = 10;
+
 function MaFonction(nombre) {
     var val = 1;
-    function Ajouter() {
+
+    return Ajouter() {
         nombre--;
         console.log(nombre);
-        //console.log(val);
         return nombre + val;
     }
-    return Ajouter;
 }
 
+
 var a = MaFonction(x);
+x--;
 a();
+x = 50;
 a();
+x++;
 a();
+
 */
+
 
 var aFn = {
     x : 3,
-    fn : function () {
+    fn : function() {
         return {
             x : 2,
             getx : function () {
@@ -31,3 +37,4 @@ var aFn = {
 var x = aFn.fn().getx();
 
 console.log(x, aFn.fn().getx());
+

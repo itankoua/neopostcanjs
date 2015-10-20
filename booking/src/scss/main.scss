@@ -5,6 +5,23 @@ body {
   background: green;
 }
 
-.black {
-  background: $black;
+
+
+.box {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+
+  .free {
+    background: $free;
+  }
+  .busy {
+    background: $busy;
+  }
+
+}
+
+.bg-one {
+  background: red;
 }
