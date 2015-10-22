@@ -1,0 +1,19 @@
+{
+  "name": "ang-dir-ts",
+  "version": "1.0.0",
+  "description": "angular application with typescript",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.0.4"
+  },
+  "devDependencies": {
+    "gulp-inject": "^3.0.0",
+    "gulp-watch": "^4.3.5"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Ivan TANKOUA",
+  "license": "ISC"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "booking",
+  "homepage": "https://github.com/itankoua/neopostcanjs",
+  "authors": [
+    "Ivan TANKOUA <itankoua@software-phone.com>"
+  ],
+  "description": "reservation salle",
+  "main": "index.html",
+  "moduleType": [
+    "es6",
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "CanJS": "canjs#~2.2.9",
+    "bootstrap": "~3.3.5",
+    "modernizer": "~2.8.2"
+  }
+}
