@@ -1,0 +1,25 @@
+{
+  "name": "ang-dir-ts",
+  "description": "angular application with typescript",
+  "main": "gulpfile.js",
+  "authors": [
+    "Ivan TANKOUA"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/itankoua/neopostcanjs",
+  "moduleType": [
+    "es6"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "angular": "~1.4.7",
+    "dt-angular": "~1.2.16"
+  }
+}

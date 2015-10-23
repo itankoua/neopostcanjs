@@ -6,15 +6,15 @@
 
 
 // Interfaces
-/// <reference path='interfaces/IScope.ts' />
-/// <reference path='interfaces/IGuid.ts' />
+/// <reference path='src/interfaces/IScope.ts' />
+/// <reference path='src/interfaces/IGuid.ts' />
 
 // Models
-/// <reference path='models/User.ts' />
-/// <reference path='models/Meeting.ts' />
-/// <reference path='models/Room.ts' />
+/// <reference path='src/models/User.ts' />
+/// <reference path='src/models/Meeting.ts' />
+/// <reference path='src/models/Room.ts' />
 
 // Helpers
-/// <reference path='services/Guid.ts' />
+/// <reference path='src/services/Guid.ts' />
 
 // Services
