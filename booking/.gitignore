@@ -49,3 +49,6 @@ crashlytics-build.properties
 
 node_modules
 bower_components
+
+built
+dist

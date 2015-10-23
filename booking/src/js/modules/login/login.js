@@ -13,7 +13,7 @@ var model2 = {
 var currentlang = translate("french");
 
 
-var frag = can.view("file:///Users/itankoua/Documents/SPBASE/NEOPOST/neopostcanjs/booking/src/js/modules/login/login.ejs",
+var frag = can.view("/booking/src/js/modules/login/login.ejs",
     {model: currentlang});
 
 

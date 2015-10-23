@@ -1,0 +1,29 @@
+{
+  "name": "booking",
+  "version": "1.0.0",
+  "description": "formation ",
+  "main": "index.html",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itankoua/neopostcanjs.git"
+  },
+  "keywords": [
+    "CanJS"
+  ],
+  "author": "Neopost",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itankoua/neopostcanjs/issues"
+  },
+  "homepage": "https://github.com/itankoua/neopostcanjs#readme",
+  "devDependencies": {
+    "gulp-clean": "^0.3.1",
+    "gulp-uglify": "^1.4.2"
+  },
+  "dependencies": {
+    "path": "^0.12.7"
+  }
+}
