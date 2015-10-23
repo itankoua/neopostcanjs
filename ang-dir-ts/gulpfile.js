@@ -105,6 +105,7 @@ gulp.task('watch', ['inject'], function () {
     });
 
     gulp.watch(path.join(paths.src, '/**/*.html'), function(event) {
+        gulp.start('inject');
         browserSync.reload(event.path);
     });
 });

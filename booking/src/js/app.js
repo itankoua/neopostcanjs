@@ -33,9 +33,11 @@ var fullModel = {
     one: model,
     two: model2
 }
-
+/*
 var frag = can.view("file:///Users/itankoua/Documents/SPBASE/NEOPOST/neopostcanjs/booking/src/js/modules/home/home.ejs",
     {model: fullModel});
 
 
 $("#out").html(frag);
+
+    */

@@ -20,8 +20,6 @@ var language = {
 
 
 function translate(keylang) {
-
     return language[keylang];
-
 }
 
